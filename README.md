@@ -22,7 +22,7 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 - Author Profile: You will want to fill this in along with a photo as it is displayed in the footer of each post. 100x100 works well for the photo.
 - Disqus Comments: You will need to input your `disqus_shortname` and `disqus_url` to enable disqus. If you wish to disable it, simply remove the `<section class="comments">` tags & everything between.
 - Photo: The sidebar photo is set by changing your blog logo. The example image is 360x538 however you can use different sizes if needed.
-- Social Links: You can edit these by modifying the `BiosVision/partials/sidebar.hbs` file. There are also other icons in the [Mono Social Icons Font](http://drinchev.github.io/monosocialiconsfont/) you can use.
+- Social Links: You can edit these by modifying the `BiosVision/partials/sidebar.hbs` file. There are also other icons in the [Font Awesome](http://fontawesome.io/) Font you can use.
 
 Important Note: You typically will have to restart Ghost to see theme changes take effect.
 
