@@ -1,0 +1,70 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+<main class="content" role="main">
+
+    <article class="{{post_class}}">
+
+        {{! Everything inside the #post tags pulls data from the post }}
+        {{#post}}
+
+        {{! Everything below outputs content of the the post which has been published }}
+
+        <h1 class="post-title">{{{title}}}</h1>
+
+        <section class="post-content">
+            {{content}}
+        </section>
+
+        <footer class="post-footer">
+            <span class="post-meta"><span class="label label-default"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span> {{#if tags}}on <span class="label label-default">{{tags}}</span>{{/if}}</span>
+            {{#if author}}
+                <hr/>
+                <section class="author">
+                    {{#if author.image}}<div id="author-image" class="pull-left"><img src="{{author.image}}" alt="{{author.name}}" hight="100px" width="100px"/></div>{{/if}}
+                    <h4>{{author.name}}</h4>
+                    <p>{{author.bio}}</p>
+                </section>
+            {{/if}}
+            <hr/>
+
+        </footer>
+
+        <section class="comments">
+            <div class=disqusbox>
+            <div>
+                <p><strong>View or Post Comments</strong></p>
+            </div>
+            <div id="disqus_thread"><form onsubmit="my.loadDisqus();return false;" class=formBlock><input class="btn btn-default" type=submit value="Load Comments"></form></div>
+            <script>/* <![CDATA[ */
+            var disqus_shortname = "yourdisqus_shortname";
+            // provide the following in the template, if necessary
+            // var disqus_url = "http://yourghostblogdomainname/";
+            // var disqus_identifier = '{{id}}';
+            if (typeof my == "undefined") {
+              var my = ({});
+            }
+            my.loadDisqus = function() {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            };
+            /* ]]> */</script>
+            <noscript>Please enable javascript to <a rel="nofollow" href="http://disqus.com/?ref_noscript">discus this page, powered by Disqus.</a></noscript>
+            <style scoped=scoped>/* <![CDATA[ */
+            @media print{
+             .disqusbox{display:none}
+            }
+            /* ]]> */</style>
+            </div>
+        </section>
+
+        {{/post}}
+
+    </article>
+
+</main>
