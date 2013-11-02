@@ -10,11 +10,11 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ## Changelog
 
-1.4 - Change license from CC-BY-SA to MIT
-1.3 - Replaced Mono Social Icons Font with Font Awesome
-1.2 - Updated to Bootstrap 3.0.1
-1.1 - Disqus Fix
-1.0 - Initial Release
+- 1.4 - Change license from CC-BY-SA to MIT
+- 1.3 - Replaced Mono Social Icons Font with Font Awesome
+- 1.2 - Updated to Bootstrap 3.0.1
+- 1.1 - Disqus Fix
+- 1.0 - Initial Release
 
 ## Getting Started
 
