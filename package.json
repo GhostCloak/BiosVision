@@ -1,0 +1,15 @@
+{
+  "name": "BiosVision",
+  "version": "1.4.0",
+  "dependencies": {
+    "load-grunt-tasks": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-rsync": "~0.2.1",
+    "grunt-recess": "~0.4.0"
+  }
+}
