@@ -1,3 +1,10 @@
+@primary-color: #7FAF1B;
+@secondary-color: #416D31;
+@link-color: #449127;
+@link-hover-color: #78C85A;
+@background-color: #F2F2F2;
+@sidebar-font-color: #556270;
+
 ::selection {
     background: #416D31;
     color: #FFF;
@@ -9,11 +16,11 @@
 }
 
 a {
-    color: #449127;
+    color: @link-color;
 }
 
 a:hover {
-    color: #78C85A;
+    color: @link-hover-color;
 }
 
 h1, h2, h3,
@@ -35,9 +42,9 @@ html {
 }
 
 body {
-    background-color: #F2F2F2;
+    background-color: @background-color;
     background-image: url('../img/witewall_3.png');
-    border-top: 5px solid #7FAF1B;
+    border-top: 5px solid @primary-color;
     padding-top: 20px;
 }
 
@@ -79,7 +86,7 @@ body {
 }
 
 .blog-description {
-    color: #556270;
+    color: @sidebar-font-color;
     font-size: 20px;
     margin-top: 0px;
 }
@@ -94,11 +101,11 @@ body {
 
 #about-blog {
     padding: 10px;
-    color: #556270;
+    color: @sidebar-font-color;
 }
 
 #about-social {
-    color: #556270;
+    color: @sidebar-font-color;
     font-size: 60px;
     margin-top: -10px;
     margin-bottom: -10px;
@@ -116,7 +123,7 @@ body {
 
 .site-footer {
     background: white;
-    border-top: 5px solid #7FAF1B;
+    border-top: 5px solid @primary-color;
     padding: 20px;
     margin-top: 20px;
 }

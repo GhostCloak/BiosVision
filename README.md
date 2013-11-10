@@ -1,7 +1,7 @@
 # BiosVision
 
 - Author     : [William Chambers](http://bioselement.com/)
-- Theme Demo : [http://biosvision.ghostcloak.com/]
+- Theme Demo : http://biosvision.ghostcloak.com/
 - Theme URI  : [GhostCloak](http://ghostcloak.com/)
 - Version    : 1.4
 
