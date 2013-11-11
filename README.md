@@ -3,7 +3,7 @@
 - Author     : [William Chambers](http://bioselement.com/)
 - Theme Demo : http://biosvision.ghostcloak.com/
 - Theme URI  : [GhostCloak](http://ghostcloak.com/)
-- Version    : 1.4
+- Version    : 1.5
 
 Vision is a clean, modern blog theme designed to put the focus on both your content and identity. It features a large sidebar photo to showcase your identity and then gets out of the way.
 
