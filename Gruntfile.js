@@ -69,7 +69,7 @@ module.exports = function(grunt) {
                      '*.hbs',
                      '*.js',
                      '*.json',
-                     '*.md'], dest: '/'} // includes files in path and its subdirs
+                     '*.md'], dest: 'BiosVision/'} // includes files in path and its subdirs
             ]
           }
         },
