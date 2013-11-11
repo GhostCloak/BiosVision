@@ -7,11 +7,16 @@
 
 Vision is a clean, modern blog theme designed to put the focus on both your content and identity. It features a large sidebar photo to showcase your identity and then gets out of the way.
 
+The development of this theme is only possible thanks to community support. If this and similar projects are important to you, please support it's continued development: https://gum.co/biosvision
+
 This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ## Changelog
 
-- 1.5 - Converted to LESS, added Grunt support for compiling theme
+Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision).
+
+- 1.5 - Began breaking theme into pieces for easier customization/editing
+      - Converted to LESS, added Grunt support for compiling theme
 - 1.4 - Change license from CC-BY-SA to MIT
 - 1.3 - Replaced Mono Social Icons Font with Font Awesome
 - 1.2 - Updated to Bootstrap 3.0.1
