@@ -9,12 +9,8 @@ module.exports = function(grunt) {
         // watch for changes and trigger less, jshint and livereload
         watch: {
             recess: {
-                files: ['assets/css/*.less'],
+                files: ['assets/less/*.less'],
                 tasks: ['recess']
-            },
-            js: {
-                files: '<%= jshint.all %>',
-                tasks: ['jshint', 'uglify']
             },
             livereload: {
                 options: { livereload: true },
@@ -60,6 +56,22 @@ module.exports = function(grunt) {
                     dest: 'assets/img/'
                 }]
             }
+        },
+
+        compress: {
+          main: {
+            options: {
+              archive: 'archive.zip'
+            },
+            files: [
+              {src: ['assets/**',
+                     'partials/**',
+                     '*.hbs',
+                     '*.js',
+                     '*.json',
+                     '*.md'], dest: '/'} // includes files in path and its subdirs
+            ]
+          }
         },
 
     });
