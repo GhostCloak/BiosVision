@@ -70,3 +70,5 @@ THE SOFTWARE.
 - Background Image Credit: [Subtle Patterns](http://subtlepatterns.com/)
 - Bootstrap: Copyright 2013 Twitter, Inc under the Apache 2.0 & MIT license's.
 - Font Awesome: Licensed under the Open Font License.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/GhostCloak/biosvision/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
