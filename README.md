@@ -27,8 +27,6 @@ Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision)
 
 First you need to download the theme. I currently recommend against getting it directly from GitHub as I'm still working on a better compiling process. Until then, you can get it pay-what-you-want from the [BiosVision](http://biosvision.ghostcloak.com/) Website.
 
-TODO: Compile Docs
-
 ## Key Configuration Options
 
 - About & Contact Pages: Ghost does not yet offer official support for pages however you can add a post and set the post date in the past to 'hide' it. Then you can simply add the links to your sidebar in the `BiosVision/partials/sidebar.hbs` file.
@@ -42,6 +40,17 @@ Important Note: You typically will have to restart Ghost to see theme changes ta
 ## Support
 
 If you have issues/suggestions for the theme you can send an email to `contact@ghostcloak.com` or visit the Theme Website.
+
+## Building Ghost
+
+Caution: This process is still a work-in-progress and may be incomplete.
+
+First, navigate to the theme directory and run the following commands via your terminal.
+
+    npm install
+    grunt recess
+
+From here, you'll have the compiled CSS for your site.
 
 ## Copyright & License
 
