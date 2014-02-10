@@ -3,7 +3,7 @@
 - Author     : [William Chambers](http://bioselement.com/)
 - Theme Demo : http://biosvision.ghostcloak.com/
 - Theme URI  : [GhostCloak](http://ghostcloak.com/)
-- Version    : 1.5
+- Version    : 1.6
 
 Vision is a clean, modern blog theme designed to put the focus on both your content and identity. It features a large sidebar photo to showcase your identity and then gets out of the way.
 
@@ -15,6 +15,7 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision).
 
+- 1.6 - Support for Ghost 0.4.1
 - 1.5 - Began breaking theme into pieces for easier customization/editing
       - Converted to LESS, added Grunt support for compiling theme
 - 1.4 - Change license from CC-BY-SA to MIT
@@ -26,8 +27,6 @@ Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision)
 ## Getting Started
 
 First you need to download the theme. I currently recommend against getting it directly from GitHub as I'm still working on a better compiling process. Until then, you can get it pay-what-you-want from the [BiosVision](http://biosvision.ghostcloak.com/) Website.
-
-TODO: Compile Docs
 
 ## Key Configuration Options
 
@@ -42,6 +41,17 @@ Important Note: You typically will have to restart Ghost to see theme changes ta
 ## Support
 
 If you have issues/suggestions for the theme you can send an email to `contact@ghostcloak.com` or visit the Theme Website.
+
+## Building Ghost
+
+Caution: This process is still a work-in-progress and may be incomplete.
+
+First, navigate to the theme directory and run the following commands via your terminal.
+
+    npm install
+    grunt recess
+
+From here, you'll have the compiled CSS for your site.
 
 ## Copyright & License
 
@@ -70,3 +80,5 @@ THE SOFTWARE.
 - Background Image Credit: [Subtle Patterns](http://subtlepatterns.com/)
 - Bootstrap: Copyright 2013 Twitter, Inc under the Apache 2.0 & MIT license's.
 - Font Awesome: Licensed under the Open Font License.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/GhostCloak/biosvision/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
