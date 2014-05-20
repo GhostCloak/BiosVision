@@ -3,7 +3,7 @@
 - Author     : [William Chambers](http://bioselement.com/)
 - Theme Demo : http://biosvision.ghostcloak.com/
 - Theme URI  : [GhostCloak](http://ghostcloak.com/)
-- Version    : 1.6
+- Version    : 1.7
 
 Vision is a clean, modern blog theme designed to put the focus on both your content and identity. It features a large sidebar photo to showcase your identity and then gets out of the way.
 
@@ -15,6 +15,7 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision).
 
+- 1.7 - Style fixes
 - 1.6 - Support for Ghost 0.4.1
 - 1.5 - Began breaking theme into pieces for easier customization/editing
       - Converted to LESS, added Grunt support for compiling theme
@@ -44,7 +45,7 @@ If you have issues/suggestions for the theme you can send an email to `contact@g
 
 ## Building Ghost
 
-Caution: This process is still a work-in-progress and may be incomplete.
+Before beginning, You will need to have Node, NPM and Grunt-CLI installed.
 
 First, navigate to the theme directory and run the following commands via your terminal.
 
@@ -55,7 +56,7 @@ From here, you'll have the compiled CSS for your site.
 
 ## Copyright & License
 
-Copyright (c) 2013 William Chambers - Released under The MIT License.
+Copyright (c) 2013-2014 William Chambers - Released under The MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
