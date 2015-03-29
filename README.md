@@ -3,7 +3,7 @@
 - Author     : [William Chambers](http://bioselement.com/)
 - Theme Demo : http://biosvision.ghostcloak.com/
 - Theme URI  : [GhostCloak](http://ghostcloak.com/)
-- Version    : 1.7
+- Version    : 1.8
 
 Vision is a clean, modern blog theme designed to put the focus on both your content and identity. It features a large sidebar photo to showcase your identity and then gets out of the way.
 
@@ -15,6 +15,7 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision).
 
+- 1.8 - Added Navigation Tag Support
 - 1.7 - Style fixes
 - 1.6 - Support for Ghost 0.4.1
 - 1.5 - Began breaking theme into pieces for easier customization/editing
@@ -56,7 +57,7 @@ From here, you'll have the compiled CSS for your site.
 
 ## Copyright & License
 
-Copyright (c) 2013-2014 William Chambers - Released under The MIT License.
+Copyright (c) 2013-2015 William Chambers - Released under The MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
