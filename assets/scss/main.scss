@@ -1,0 +1,138 @@
+$primary-color: #7FAF1B;
+$secondary-color: #416D31;
+$link-color: #449127;
+$link-hover-color: #78C85A;
+$background-color: #F2F2F2;
+$sidebar-font-color: #556270;
+
+::selection {
+    background: #416D31;
+    color: #FFF;
+}
+
+::-moz-selection {
+    background: #416D31;
+    color: #FFF;
+}
+
+a {
+    color: $link-color;
+}
+
+a:hover {
+    color: $link-hover-color;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+}
+ 
+p {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: $background-color;
+    background-image: url('../img/witewall_3.png');
+    border-top: 5px solid $primary-color;
+    padding-top: 20px;
+}
+
+.post {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+.label-default {
+    background-color: #eee;
+    color: #556270;
+}
+
+.author {
+    min-height: 100px;
+}
+
+#author-image {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pagination {
+    margin: 0;
+}
+
+#site-head-content {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.5);
+}
+
+.blog-description {
+    color: $sidebar-font-color;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#sidebar-inner {
+    background: white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+#about-blog {
+    padding: 10px;
+    color: $sidebar-font-color;
+}
+
+#about-social {
+    color: $sidebar-font-color;
+    font-size: 60px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+#about-social a:hover {
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#blog-logo img {
+    width: 100%;
+}
+
+.site-footer {
+    background: white;
+    border-top: 5px solid $primary-color;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.nav-pills li a {
+    border-radius: 0px;
+}

@@ -15,6 +15,9 @@ This is of course a theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Development can be tracked on [GitHub](https://github.com/GhostCloak/BiosVision).
 
+IMPORTANT: Do not upgrade to 2.0 without making a backup as the build system and CSS pre-processor are changing.
+
+- 2.0 - Less -> Sass, Updating Bootstrap, FontAwesome, Improving Build System
 - 1.8 - Added Navigation Tag Support
 - 1.7 - Style fixes
 - 1.6 - Support for Ghost 0.4.1
