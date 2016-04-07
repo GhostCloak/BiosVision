@@ -6,6 +6,7 @@
     "nodemon": "^1.9.1"
   },
   "scripts": {
-    "build-css": "./bin/build-css"
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
   }
 }
